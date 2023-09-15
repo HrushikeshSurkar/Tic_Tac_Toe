@@ -1,0 +1,76 @@
+<!-- this code is wirtten by Hrushikesh Surkar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand " style="margin-left: 200px; font-size: xx-large;font-weight: 700;" href="#">Enjoy Gaming</a>
+</nav>
+
+
+<div class="container mt-4">
+  <div class="row">
+
+    <div class="col-5">
+      <h1 class="text-light">
+        Tic Tac Toe
+      </h1>
+      <h4 class="text-light">
+        for Windows PC
+      </h4>
+
+      <h5 style="color: #283618;">
+        who will go first ?
+      </h5>
+      <button class="btn btn-success m-2" (click)="player1()" *ngIf="btn == 'no' ">Circle</button>
+      <button class="btn btn-success" (click)="player2()" *ngIf="btn == 'no'">Cross</button>
+      <button class="btn btn-success m-2" (click)="reset()" *ngIf="resetbtn=='hide' && btn =='yes' ">Reset</button>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="row text-success h1" style="margin-top: 25%;" *ngIf="winnerbtn1=='hide'">
+        Winner:Circle
+      </div>
+      <div class="row text-success h1" style="margin-top: 25%;" *ngIf="winnerbtn2=='hide' ">
+        Winner:Cross
+      </div>
+      <div class="row text-success h1" style="margin-top: 25%;" *ngIf="winnerbtn3=='hide' ">
+        <h3 style="font-size: 350%;">Tie</h3>
+      </div>
+    </div>
+    <div class="col-7">
+
+      <div class="row">
+        <button class="col-4 btn" (click)="btn1()" [disabled]="disabled1 == 'true'"><i
+            class="fa fa-{{a1}}"></i></button>
+        <button class="col-4 btn" (click)="btn2()" [disabled]="disabled2 == 'true'"><i
+            class="fa fa-{{a2}}"></i></button>
+        <button class="col-4 btn" (click)="btn3()" [disabled]="disabled3 == 'true'"><i
+            class="fa fa-{{a3}}"></i></button>
+      </div>
+      <div class="row">
+        <button class="col-4 btn" (click)="btn4()" [disabled]="disabled4 == 'true'"><i
+            class="fa fa-{{a4}}"></i></button>
+        <button class="col-4 btn" (click)="btn5()" [disabled]="disabled5 == 'true'"><i
+            class="fa fa-{{a5}}"></i></button>
+        <button class="col-4 btn" (click)="btn6()" [disabled]="disabled6 == 'true'"><i
+            class="fa fa-{{a6}}"></i></button>
+      </div>
+      <div class="row">
+        <button class="col-4 btn" (click)="btn7()" [disabled]="disabled7 == 'true'"><i
+            class="fa fa-{{a7}}"></i></button>
+        <button class="col-4 btn" (click)="btn8()" [disabled]="disabled8 == 'true'"><i
+            class="fa fa-{{a8}}"></i></button>
+        <button class="col-4 btn" (click)="btn9()" [disabled]="disabled9 == 'true'"><i
+            class="fa fa-{{a9}}"></i></button>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>
+
+<!-- this code is written by Hrushikesh Surkar -->
