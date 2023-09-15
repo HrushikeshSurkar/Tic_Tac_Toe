@@ -1,0 +1,54 @@
+.col-4 {
+    height: 28vh;
+    width: 28vh;
+    background-color: #fefae0;
+    border: 3px solid black;
+}
+
+
+h1 {
+
+    font-size: 500%;
+}
+
+h4 {
+    font-size: xxx-large;
+    color: blue;
+}
+
+h5 {
+    font-size: xx-large;
+}
+
+.fa {
+    font-size: 1200%;
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .col-4 {
+        height: 13vh;
+        width: 13vh;
+        background-color: #fefae0;
+        border: 3px solid black;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+
+    h4 {
+        font-size: x-large;
+        color: blue;
+    }
+
+    h5 {
+        font-size: x-large;
+    }
+
+    .fa {
+        font-size: 80px;
+    }
+}
