@@ -10,7 +10,7 @@ Navigate to `http://localhost:4200/` in your browser. The application will autom
 
 ## Live Site
 
-You can see the live site at [https://hrushikeshsurkar.github.io/Tic_Tac_Toe/](https://hrushikeshsurkar.github.io/Tic_Tac_Toe/).
+You can see the live site at [Tic Tac Toe](https://hrushikeshsurkar.github.io/Tic_Tac_Toe/).
 
 ## Download
 
