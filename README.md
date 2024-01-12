@@ -4,23 +4,13 @@ This project is an Angular application for playing TicTacToe, generated with [An
 
 ## Development Server
 
-To run the development server, execute `ng serve`. Navigate to `http://localhost:4200/` in your browser. The application will automatically reload if you make any changes to the source files.
+To run the development server, execute `ng serve`.
 
-## Code Scaffolding
+Navigate to `http://localhost:4200/` in your browser. The application will automatically reload if you make any changes to the source files.
 
-Generate a new component using `ng generate component component-name`. Alternatively, you can use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Live Site
 
-## Build
-
-Execute `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running Unit Tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running End-to-End Tests
-
-Execute `ng e2e` to run the end-to-end tests on a platform of your choice. To use this command, you must first add a package that implements end-to-end testing capabilities.
+You can see the live site at [https://hrushikeshsurkar.github.io/Tic_Tac_Toe/](https://hrushikeshsurkar.github.io/Tic_Tac_Toe/).
 
 ## Further Help
 
